@@ -10,17 +10,18 @@
     "categories": [
         "Themes"
     ],
+    "icon": "images/shortcut.png",
     "contributes": {
         "themes": [
             {
-                "label": "vintui",
+                "label": "Vintui",
                 "uiTheme": "vs-dark",
                 "path": "./themes/vintui-color-theme.json"
             },
             {
-                "label": "Vintui-theme",
+                "label": "Vintui Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Vintui-theme.tmTheme"
+                "path": "./themes/Vintui.tmTheme"
             }
         ]
     },
@@ -30,3 +31,4 @@
         "publisherId": "498a57df-366d-48d3-bee3-b1b1c08db88f"
     }
 }
+
