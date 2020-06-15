@@ -16,6 +16,11 @@
                 "label": "vintui",
                 "uiTheme": "vs-dark",
                 "path": "./themes/vintui-color-theme.json"
+            },
+            {
+                "label": "Vintui-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vintui-theme.tmTheme"
             }
         ]
     }
