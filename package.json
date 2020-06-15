@@ -1,0 +1,22 @@
+{
+    "name": "theme-vintui",
+    "displayName": "%displayName%",
+    "description": "%description%",
+    "version": "1.0.0",
+    "publisher": "Vintlike",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "vintui",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vintui-color-theme.json"
+            }
+        ]
+    }
+}
