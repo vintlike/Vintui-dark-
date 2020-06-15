@@ -1,7 +1,7 @@
 {
     "name": "theme-vintui",
-    "displayName": "%displayName%",
-    "description": "%description%",
+    "displayName": "Vintui Theme",
+    "description": "Vintui theme for Visual Studio Code or Sublime.",
     "version": "1.0.0",
     "publisher": "Vintlike",
     "engines": {
@@ -23,5 +23,10 @@
                 "path": "./themes/Vintui-theme.tmTheme"
             }
         ]
+    },
+    "__metadata": {
+        "id": "534cdf6a-1ec9-4df1-88dd-c32c7d2ba9b6",
+        "publisherDisplayName": "Vintlike",
+        "publisherId": "498a57df-366d-48d3-bee3-b1b1c08db88f"
     }
 }
