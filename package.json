@@ -16,7 +16,7 @@
             {
                 "label": "Vintui",
                 "uiTheme": "vs-dark",
-                "path": "./themes/vintui-color-theme.json"
+                "path": "./themes/Vintui-theme.json"
             },
             {
                 "label": "Vintui Dark",
