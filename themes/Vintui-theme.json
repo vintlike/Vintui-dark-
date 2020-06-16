@@ -3,7 +3,7 @@
     "type": "dark",
     "colors": {
         // Base
-        // "foreground": "",
+        // "foreground": "#f8f8f8",
         "focusBorder": "#3399ff",
 
         // "contrastActiveBorder": "",
@@ -13,7 +13,7 @@
         // 输入框
         "input.background": "#0b2942",
         "input.border": "#233e55",
-        // "input.foreground": "",
+        // "input.foreground": "#c0c4cc",
         "inputOption.activeBorder": "#3399ff",
         "inputValidation.infoBorder": "#45ccfd",
         "inputValidation.infoBackground": "#45ccfd",
@@ -21,9 +21,6 @@
         "inputValidation.warningBorder": "#ff9900",
         "inputValidation.errorBackground": "#fa5151",
         "inputValidation.errorBorder": "#fa5151",
-
-        "badge.background": "#0063a5",
-        "progressBar.background": "#0063a5",
 
         // 下拉列表
         "dropdown.background": "#0b2942",
@@ -34,123 +31,20 @@
         "button.background": "#3399ff",
         // "button.foreground": "",
 
-        "list.activeSelectionBackground": "#233e55",
-        // "list.activeSelectionForeground": "",
-        "list.focusBackground": "#233e55",
-        "list.hoverBackground": "#233e55",
-        "list.inactiveSelectionBackground": "#233e55",
-        "list.dropBackground": "#f00", //#041D52
-        "list.inactiveSelectionForeground": "#ffffff",
-        "list.highlightForeground": "#9769dc",
-
-        // 滚动条
-        "scrollbar.shadow": "#515E91AA",
-        "scrollbarSlider.activeBackground": "#3B3F5188",
-        "scrollbarSlider.background": "#1F2230AA",
-        "scrollbarSlider.hoverBackground": "#3B3F5188",
-
-        // Editor
-        "editor.background": "#051e33",
-        "editor.foreground": "#a6b0b9",
-        // "editor.foreground": "#6688cc",
-        "editorWidget.background": "#132b3f", // 弹出小挂件模块
-        "editorCursor.foreground": "#ddbb88",
-        "editorWhitespace.foreground": "#5a7181",
-        "editor.lineHighlightBackground": "#334c61", //光标所在行高亮文本的背景颜色
-        "editor.selectionBackground": "#334c61", //编辑器所选内容的颜色
-        "editorIndentGuide.background": "#002952",
-        "editorIndentGuide.activeBackground": "#204972",
-        "editorHoverWidget.background": "#000c38",
-        "editorHoverWidget.border": "#004c18",
-        "editorLineNumber.foreground": "#406385",
-        "editorLineNumber.activeForeground": "#80a2c2",
-        "editorMarkerNavigation.background": "#060621",
-        "editorMarkerNavigationError.background": "#AB395B",
-        "editorMarkerNavigationWarning.background": "#5B7E7A",
-        "editorLink.activeForeground": "#0063a5",
-        // "editor.findMatchBackground": "", //当前搜索匹配项的颜色
-        "editor.findMatchHighlightBackground": "#233e55", //其他搜索匹配项的颜色
-        // "editor.findRangeHighlightBackground": "",
-        // "editor.hoverHighlightBackground": "",
-        // "editor.inactiveSelectionBackground": "",
-        // "editor.lineHighlightBorder": "",
-        // "editor.rangeHighlightBackground": "", //突出显示范围的背景颜色，例如 "Quick Open" 和“查找”功能
-        // "editor.selectionHighlightBackground": "", //与所选内容具有相同内容的区域颜色
-        // "editor.wordHighlightBackground": "",
-        // "editor.wordHighlightStrongBackground": "",
-        // "editorBracketMatch.background": "", //匹配括号的背景色
-        // Editor: Suggest Widget
-        // "editorSuggestWidget.background": "",
-        // "editorSuggestWidget.border": "",
-        // "editorSuggestWidget.foreground": "",
-        // "editorSuggestWidget.highlightForeground": "",
-        // "editorSuggestWidget.selectedBackground": "",
-
-        // Editor: Peek View
-        "peekViewResult.background": "#10192c",
-        // "peekViewResult.lineForeground": "",
-        // "peekViewResult.selectionBackground": "",
-        // "peekViewResult.selectionForeground": "",
-        "peekViewEditor.background": "#10192c",
-        "peekViewTitle.background": "#10192c",
-        "peekView.border": "#164267",
-        "peekViewEditor.matchHighlightBackground": "#eeeeee33",
-        // "peekViewResult.fileForeground": "",
-        "peekViewResult.matchHighlightBackground": "#eeeeee44",
-        // "peekViewTitleLabel.foreground": "",
-        // "peekViewTitleDescription.foreground": "",
-
-        // Editor: Diff
-        "diffEditor.insertedTextBackground": "#31958A55",
-        // "diffEditor.insertedTextBorder": "",
-        "diffEditor.removedTextBackground": "#892F4688",
-        // "diffEditor.removedTextBorder": "",
-        "diffEditor.border": "#1e3447",
+        "badge.background": "#0063a5",
+        "progressBar.background": "#0063a5",
 
         // Workbench: Title
-        "titleBar.activeBackground": "#1d3348", // 菜单栏背景
+        "titleBar.activeBackground": "#051e33", // 1d3348菜单栏背景
         // "titleBar.activeForeground": "",
         // "titleBar.inactiveBackground": "",
         // "titleBar.inactiveForeground": "",
 
-        // Workbench: Tabs
-        "tab.border": "#164267",
-        "tab.activeBackground": "#233e55",
-        "tab.inactiveBackground": "#041829",
-        "tab.activeForeground": "#ffffff",
-        "tab.inactiveForeground": "#a7b2bb",
-        "tab.hoverBackground": "#233e55",
-        "tab.activeBorder": "#3399ff",
+        // Workbench: Title
+        "menubar.selectionBackground": "#233e55",
 
-        // Workbench: Activity Bar
-        "activityBar.background": "#041829", // 最左边菜单
-        "activityBar.foreground": "#ffffff",
-        "activityBar.activeBackground": "#3399ff",
-        "activityBar.activeForeground": "#ffffff",
-        "activityBar.border": "#164267",
-        "activityBar.activeBorder": "#164267",
-        // "activityBarBadge.background": "",
-        // "activityBarBadge.foreground": "",
-        // "activityBar.dropBackground": "",
-
-        // Workbench: Panel
-        "panel.background": "#002458",
-        "panel.border": "#164267",
-        // "panelTitle.activeBorder": "",
-        // "panelTitle.activeForeground": "",
-        // "panelTitle.inactiveForeground": "",
-
-        // Workbench: Side Bar
-        "sideBar.background": "#0b2942",
-        "sideBar.foreground": "#a7b2bb",
-        "sideBarTitle.foreground": "#fff",
-        "sideBar.border": "#164267",
-        "sideBarSectionHeader.background": "#132b3f",
-        // "sideBarSectionHeader.foreground": "#164267",
-        // "sideBarSectionHeader.border": "#164267",
-
-        // Workbench: Status Bar
-        "statusBar.background": "#122b3f", // 底部状态栏
+        // Workbench: Status Bar 底部状态栏
+        "statusBar.background": "#051e33",
         "statusBar.noFolderBackground": "#122b3f",
         "statusBar.debuggingBackground": "#122b3f",
         // "statusBar.foreground": "",
@@ -160,22 +54,138 @@
         // "statusBarItem.hoverBackground": "",
         "statusBar.border": "#164267",
 
+        // Workbench: Activity Bar 最左边活动栏背景色
+        "activityBar.background": "#041829",
+        "activityBar.foreground": "#ffffff",
+        "activityBar.activeBackground": "#3399ff",
+        "activityBar.border": "#164267",
+        "activityBar.activeBorder": "#164267",
+        // "activityBarBadge.background": "",
+        // "activityBarBadge.foreground": "",
+        // "activityBar.dropBackground": "",
+
+        // Workbench: Side Bar
+        "sideBar.background": "#051e33", // 0b2942
+        "sideBar.foreground": "#f8f8f8",
+        "sideBarTitle.foreground": "#f8f8f8",
+        "sideBar.border": "#164267",
+        "sideBarSectionHeader.background": "#051e33", // 132b3f
+        "sideBarSectionHeader.foreground": "#f8f8f8",
+        "sideBarSectionHeader.border": "#164267",
+
+        // Workbench: Panel
+        "panel.background": "#002458",
+        "panel.border": "#164267",
+        // "panelTitle.activeBorder": "",
+        "panelTitle.activeForeground": "#ffffff",
+        // "panelTitle.inactiveForeground": "",
+
+        // Editor
+        "editor.background": "#0C1021", // 051e33
+        "editor.foreground": "#a6b0b9",
+        // "editor.foreground": "#6688cc",
+        "editor.lineHighlightBackground": "#334c61", //光标所在行高亮文本的背景颜色
+        // "editor.lineHighlightBorder": "",
+        "editor.selectionBackground": "#334c61", //编辑器所选内容的颜色
+        // "editor.selectionHighlightBackground": "", //与所选内容具有相同内容的区域颜色
+        // "editor.findMatchBackground": "", //当前搜索匹配项的颜色
+        "editor.findMatchHighlightBackground": "#233e55", //其他搜索匹配项的颜色
+        // "editor.findRangeHighlightBackground": "",
+        // "editor.hoverHighlightBackground": "",
+        // "editor.inactiveSelectionBackground": "",
+        // "editor.rangeHighlightBackground": "", //突出显示范围的背景颜色，例如 "Quick Open" 和“查找”功能
+        // "editor.wordHighlightBackground": "",
+        // "editor.wordHighlightStrongBackground": "",
+        "editorWidget.background": "#132b3f", // 弹出小挂件模块
+        "editorCursor.foreground": "#ddbb88",
+        "editorWhitespace.foreground": "#5a7181",
+        // "editorBracketMatch.background": "", //匹配括号的背景色
+
+        "editorGutter.background": "#041829", // 编辑器导航线的背景色，导航线包括边缘符号和行号
+        "editorLineNumber.foreground": "#7a8a99", // 编辑器行号颜色
+        "editorLineNumber.activeForeground": "#80a2c2",
+        "editorIndentGuide.background": "#002952",
+        "editorIndentGuide.activeBackground": "#204972",
+        "editorHoverWidget.background": "#000c38",
+        "editorHoverWidget.border": "#002458",
+        "editorMarkerNavigation.background": "#060621",
+        "editorMarkerNavigationError.background": "#AB395B",
+        "editorMarkerNavigationWarning.background": "#5B7E7A",
+        "editorLink.activeForeground": "#0063a5",
+
+        // Editor: Suggest Widget
+        // "editorSuggestWidget.background": "",
+        // "editorSuggestWidget.border": "",
+        // "editorSuggestWidget.foreground": "",
+        // "editorSuggestWidget.highlightForeground": "",
+        // "editorSuggestWidget.selectedBackground": "",
+
+        // Menu
+        "menu.background": "#132b3f",
+        "menu.foreground": "#f8f8f8",
+        "menu.selectionBorder": "#164267",
+        "menu.separatorBackground": "#164267",
+        "menu.selectionBackground": "#164267",
+
+        // 项目文件列表
+        "list.activeSelectionBackground": "#233e55",
+        // "list.activeSelectionForeground": "",
+        "list.focusBackground": "#233e55",
+        "list.hoverBackground": "#233e55",
+        "list.inactiveSelectionBackground": "#233e55",
+        "list.dropBackground": "#233e55",
+        "list.inactiveSelectionForeground": "#ffffff",
+        "list.highlightForeground": "#9769dc",
+
+        // Workbench: Tabs
+        "tab.border": "#164267",
+        "tab.activeBackground": "#233e55",
+        "tab.inactiveBackground": "#0b2942",
+        "tab.activeForeground": "#ffffff",
+        // "tab.inactiveForeground": "",
+        "tab.hoverBackground": "#233e55",
+        "tab.activeBorder": "#3399ff",
+
+        // 滚动条
+        "scrollbar.shadow": "#515E91AA",
+        "scrollbarSlider.background": "#1F2230AA",
+        "scrollbarSlider.activeBackground": "#3B3F5188",
+        "scrollbarSlider.hoverBackground": "#3B3F5188",
+
+        // Editor: Peek View
+        "peekViewEditor.background": "#10192c",
+        "peekView.border": "#164267",
+        "peekViewTitle.background": "#10192c",
+        // "peekViewTitleLabel.foreground": "",
+        // "peekViewTitleDescription.foreground": "",
+        "peekViewResult.background": "#10192c",
+        // "peekViewResult.lineForeground": "",
+        // "peekViewResult.selectionBackground": "",
+        // "peekViewResult.selectionForeground": "",
+        // "peekViewResult.fileForeground": "",
+        "peekViewResult.matchHighlightBackground": "#eeeeee44",
+        "peekViewEditor.matchHighlightBackground": "#eeeeee33",
+
+        // Editor: Diff
+        "diffEditor.insertedTextBackground": "#31958A55",
+        // "diffEditor.insertedTextBorder": "",
+        "diffEditor.removedTextBackground": "#892F4688",
+        // "diffEditor.removedTextBorder": "",
+        "diffEditor.border": "#1e3447",
+
         // Workbench: Debug
         "debugToolBar.background": "#051336",
         "debugExceptionWidget.background": "#051336",
         "debugExceptionWidget.border": "#AB395B",
+
         // Workbench: Quick Open
         "pickerGroup.foreground": "#596F99",
         "pickerGroup.border": "#596F99",
+
         // Workbench: Extensions
         "extensionButton.prominentBackground": "#5f8b3b",
         "extensionButton.prominentHoverBackground": "#5f8b3bbb",
-        "menu.background": "#132b3f",
-        "menu.foreground": "#a7b2bb",
-        "menu.selectionBorder": "#164267",
-        "menu.separatorBackground": "#164267",
-        "menu.selectionBackground": "#164267",
-        "menubar.selectionBackground": "#132b3f",
+
         // Workbench: Terminal
         "terminal.ansiBlack": "#111111",
         "terminal.ansiRed": "#ff9da4",
