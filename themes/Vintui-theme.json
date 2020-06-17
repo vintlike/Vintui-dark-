@@ -1,9 +1,9 @@
-﻿{
+{
     "name": "Vintui",
     "type": "dark",
     "colors": {
         // Base
-        // "foreground": "#f8f8f8",
+        // "foreground": "#F8F8F2",
         "focusBorder": "#3399ff",
 
         // "contrastActiveBorder": "",
@@ -12,7 +12,7 @@
 
         // 输入框
         "input.background": "#0b2942",
-        "input.border": "#233e55",
+        "input.border": "#164267",
         // "input.foreground": "#c0c4cc",
         "inputOption.activeBorder": "#3399ff",
         "inputValidation.infoBorder": "#45ccfd",
@@ -41,7 +41,7 @@
         // "titleBar.inactiveForeground": "",
 
         // Workbench: Title
-        "menubar.selectionBackground": "#233e55",
+        "menubar.selectionBackground": "#164267",
 
         // Workbench: Status Bar 底部状态栏
         "statusBar.background": "#051e33",
@@ -66,12 +66,12 @@
 
         // Workbench: Side Bar
         "sideBar.background": "#051e33", // 0b2942
-        "sideBar.foreground": "#f8f8f8",
-        "sideBarTitle.foreground": "#f8f8f8",
+        "sideBar.foreground": "#F8F8F2",
         "sideBar.border": "#164267",
-        "sideBarSectionHeader.background": "#051e33", // 132b3f
-        "sideBarSectionHeader.foreground": "#f8f8f8",
+        "sideBarSectionHeader.background": "#041829",
+        "sideBarSectionHeader.foreground": "#F8F8F2",
         "sideBarSectionHeader.border": "#164267",
+        "sideBarTitle.foreground": "#F8F8F2",
 
         // Workbench: Panel
         "panel.background": "#002458",
@@ -84,12 +84,12 @@
         "editor.background": "#0C1021", // 051e33
         "editor.foreground": "#a6b0b9",
         // "editor.foreground": "#6688cc",
-        "editor.lineHighlightBackground": "#334c61", //光标所在行高亮文本的背景颜色
+        "editor.lineHighlightBackground": "#164267", //光标所在行高亮文本的背景颜色
         // "editor.lineHighlightBorder": "",
-        "editor.selectionBackground": "#334c61", //编辑器所选内容的颜色
-        // "editor.selectionHighlightBackground": "", //与所选内容具有相同内容的区域颜色
+        "editor.selectionBackground": "#164267", //编辑器所选内容的颜色
+        "editor.selectionHighlightBackground": "#334c61", //与所选内容具有相同内容的区域颜色
         // "editor.findMatchBackground": "", //当前搜索匹配项的颜色
-        "editor.findMatchHighlightBackground": "#233e55", //其他搜索匹配项的颜色
+        "editor.findMatchHighlightBackground": "#334c61", //其他搜索匹配项的颜色
         // "editor.findRangeHighlightBackground": "",
         // "editor.hoverHighlightBackground": "",
         // "editor.inactiveSelectionBackground": "",
@@ -98,16 +98,16 @@
         // "editor.wordHighlightStrongBackground": "",
         "editorWidget.background": "#132b3f", // 弹出小挂件模块
         "editorCursor.foreground": "#ddbb88",
-        "editorWhitespace.foreground": "#5a7181",
+        "editorWhitespace.foreground": "#7a8a9a",
         // "editorBracketMatch.background": "", //匹配括号的背景色
 
-        "editorGutter.background": "#041829", // 编辑器导航线的背景色，导航线包括边缘符号和行号
-        "editorLineNumber.foreground": "#7a8a99", // 编辑器行号颜色
+        "editorGutter.background": "#132b3f", // 编辑器导航线的背景色，导航线包括边缘符号和行号
+        "editorLineNumber.foreground": "#7a8a9a", // 编辑器行号颜色
         "editorLineNumber.activeForeground": "#80a2c2",
         "editorIndentGuide.background": "#002952",
         "editorIndentGuide.activeBackground": "#204972",
         "editorHoverWidget.background": "#000c38",
-        "editorHoverWidget.border": "#002458",
+        "editorHoverWidget.border": "#164267",
         "editorMarkerNavigation.background": "#060621",
         "editorMarkerNavigationError.background": "#AB395B",
         "editorMarkerNavigationWarning.background": "#5B7E7A",
@@ -121,36 +121,40 @@
         // "editorSuggestWidget.selectedBackground": "",
 
         // Menu
-        "menu.background": "#132b3f",
-        "menu.foreground": "#f8f8f8",
+        "menu.background": "#0b2942",
+        "menu.foreground": "#F8F8F2",
         "menu.selectionBorder": "#164267",
         "menu.separatorBackground": "#164267",
         "menu.selectionBackground": "#164267",
 
         // 项目文件列表
-        "list.activeSelectionBackground": "#233e55",
+        "list.activeSelectionBackground": "#164267",
         // "list.activeSelectionForeground": "",
-        "list.focusBackground": "#233e55",
-        "list.hoverBackground": "#233e55",
-        "list.inactiveSelectionBackground": "#233e55",
-        "list.dropBackground": "#233e55",
+        "list.inactiveSelectionBackground": "#164267",
         "list.inactiveSelectionForeground": "#ffffff",
+        "list.focusBackground": "#233e55",
+        "list.hoverBackground": "#164267",
+        "list.dropBackground": "#164267",
         "list.highlightForeground": "#9769dc",
 
         // Workbench: Tabs
         "tab.border": "#164267",
-        "tab.activeBackground": "#233e55",
+        "tab.activeBackground": "#164267",
         "tab.inactiveBackground": "#0b2942",
         "tab.activeForeground": "#ffffff",
         // "tab.inactiveForeground": "",
-        "tab.hoverBackground": "#233e55",
+        "tab.hoverBackground": "#164267",
         "tab.activeBorder": "#3399ff",
 
         // 滚动条
-        "scrollbar.shadow": "#515E91AA",
-        "scrollbarSlider.background": "#1F2230AA",
-        "scrollbarSlider.activeBackground": "#3B3F5188",
-        "scrollbarSlider.hoverBackground": "#3B3F5188",
+        // "scrollbar.shadow": "#515E91AA",
+        // "scrollbarSlider.background": "#1F2230AA",
+        // "scrollbarSlider.activeBackground": "#3B3F5188",
+        // "scrollbarSlider.hoverBackground": "#3B3F5188",
+        "scrollbar.shadow": "#164267AA",
+        "scrollbarSlider.background": "#132b3f",
+        "scrollbarSlider.activeBackground": "#164267",
+        "scrollbarSlider.hoverBackground": "#164267",
 
         // Editor: Peek View
         "peekViewEditor.background": "#10192c",
@@ -222,7 +226,7 @@
             "name": "Comment",
             "scope": "comment",
             "settings": {
-                "foreground": "#88846f"
+                "foreground": "#AEAEAE"
             }
         },
         {
@@ -236,7 +240,7 @@
             "name": "Number",
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#AE81FF"
+                "foreground": "#f280d0"
             }
         },
         {
